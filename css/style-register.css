@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.right-part {
+    background-image: linear-gradient(rgb(247, 247, 247), rgb(223, 221, 221));
+    box-shadow: 0 0 20px 0 grey inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.left-part {
+    background-image: url('..//assets//img//header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(82, 82, 82);
+    background-blend-mode: multiply;
+    box-shadow: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+main {
+    width: 98.75vw;
+    height: 100vh;
+}
+
+input {
+    padding: 10px 10px 10px 10px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 208, 38);
+}
+
+button {
+    background-color: rgb(255, 208, 38);
+    color: black;
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 10px 0px 10px 0px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: rgb(250, 196, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+a:hover {
+    color: rgb(209, 164, 0);
+    ;
+}
+
+.form-check-input:active, .form-check-input:checked{
+    background-color: rgb(255, 208, 38);
+}
